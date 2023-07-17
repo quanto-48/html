@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="portfolio logo.jpg" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+  <body>
+    <header>
+        <nav>
+          <ul class="nav_links">
+              <li><a href="WORK.HTML">Work</a></li>
+              <li><a href="RESUME.HTML">Resume</a></li>
+              <li><a href="ABOUT.HTML">About</a></li>
+              <li><a href="HOME.HTML">Home</a></li>
+          </ul>
+        </nav>
+  </header>
+  <style>
+      *{
+          box-sizing: content-box;
+          padding: 0;
+          margin: 0;
+          background-color:black;
+          font-family: Arial, sans-serif;
+          color:whitesmoke;
+      }
+      li, a{
+          font-weight: 500;
+          font-size: 16px;
+          text-decoration:none;
+          display: flex;
+          justify-content: center;
+          padding: 30px 10%;
+          align-items: center;
+          flex-direction: row;
+  
+      }
+      .nav_links {
+          list-style: none;
+      }
+      .nav_links li {
+          display: inline-block;
+      }
+      .nav_links li a{
+          transition: all 0.3s ease 0s;
+      }
+      .nav_links li a:hover{
+          color:aquamarine;
+      }
+      .resume_text{
+        text-align: center;
+      }
+      .imgs{
+        list-style:none;
+      }
+      .imgs img{
+        display: inline-block;
+        position: relative;
+        top: 50px;
+        left: 330px;
+        border-radius: 14px;
+      }
+      .description{
+        position: relative;
+        left:500px;
+        top: 50px
+      }
+      .footerbottom{
+        text-align:center;
+        position: relative;
+        top:250px;
+        padding: 10px 600px;
+        background-color: hsl(0, 2%, 22%);
+        border-radius: 14px;
+      }
+  </style>
+  <!-- jevais ecrire le resumé maintenant-->
+  <section class="resume_text">
+    <h1>My Resume:</h1>
+    <p>I am a college student and I will go to the ninth grade next school year. In the field of IT, I am just a beginner among the others.<br>
+         My skills are reflection, enthusiasm and consistency.</p>
+  </section>
+  <figure class="imgs">
+    <img src="reflexion2.jpg" alt="reflection">
+    <img src="enthousiasme.jpg" alt="enthousiasme">
+    <img src="consistance.jpg" alt="consistancy">
+    <figcaption class="description">these are my skills</figcaption>
+  </figure>
+  </body>
+  <footer>
+    <div class="footerbottom">
+        <p>Designed by: Adam Lahmar</p>
+    </div>
+</footer>
+</html>
